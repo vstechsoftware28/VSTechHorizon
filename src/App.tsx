@@ -17,7 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/VSTechHorizon">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/services/robotics-lab" element={<RoboticsLab />} />
